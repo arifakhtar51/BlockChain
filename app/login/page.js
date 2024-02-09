@@ -13,7 +13,7 @@ export default function Component() {
   return (
     <Card className="max-w-md mx-auto">
       <CardHeader className="text-center space-y-2">
-        <CardTitle className="text-2xl font-bold">Login</CardTitle>
+        <CardTitle className="text-2xl font-bold">Sign In</CardTitle>
         <CardDescription>Enter your email below to login to your account.</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">

@@ -6,10 +6,10 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <header className="flex items-center px-4 py-2 border-b justify-between sm:px-6">
         <div className="flex items-center space-x-4">
-          <Link className="font-bold" href="#">
+          <Link className="font-bold" href="/">
             Home
           </Link>
-          <nav className="space-x-4">
+          {/* <nav className="space-x-4">
             <Link className="font-medium" href="#">
               Pricing
             </Link>
@@ -19,15 +19,15 @@ export default function Home() {
             <Link className="font-medium" href="#">
               Contact Us
             </Link>
-          </nav>
+          </nav> */}
         </div>
         <div className="flex items-center space-x-4">
-          <Link className="inline-block text-sm underline font-medium" href="#">
+          <Link className="inline-block text-sm underline font-medium" href="/login">
             Sign in
           </Link>
           <Link
-            className="inline-block text-sm font-medium rounded-full border border-gray-200 border-gray-200 py-2 px-6 hover:bg-gray-100 hover:text-gray-900 dark:border-gray-800 dark:border-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50"
-            href="#"
+            className="inline-block text-sm font-medium rounded-full border border-gray-200 py-2 px-6 hover:bg-gray-100 hover:text-gray-900 dark:border-gray-800 dark:border-gray-800 dark:hover:bg-gray-800 dark:hover:text-gray-50"
+            href="/signup"
           >
             Sign up
           </Link>
