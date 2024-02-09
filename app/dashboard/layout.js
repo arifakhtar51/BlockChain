@@ -1,14 +1,19 @@
-
+import Sidebar from "../../componets/Sidebar"
 
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="">
+      <div className="flex ">
 
        {/* add the dashboard in here for journalist to create stuff  */}
-         {children}
-      </body>
-    </html>
+
+          <Sidebar/>
+
+        <div className="w-[100vw]">
+           {children}
+        </div>
+        
+      </div>
+ 
   );
 }

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 export default function Component() {
   return (
     <div className="flex justify-center">
-    <div className="w-full max-w-3xl space-y-8 ">
+    <div className="w-full max-w-3xl space-y-8 mt-12">
       <div className="space-y-2">
         <label className="block text-sm font-semibold text-gray-500 dark:text-gray-400" htmlFor="title">
           Title
